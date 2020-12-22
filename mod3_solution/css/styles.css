@@ -1,0 +1,42 @@
+.navbar-brand a{
+    font-weight: bold;
+}
+
+.navbar-brand a:hover{
+    text-decoration: none;
+}
+
+.nav.navbar-nav.navbar-right a{
+    text-align: center;
+}
+
+#collapsable-nav{
+    padding: 0;
+    background-color: #fff;
+}
+
+#nav-list{
+    margin: 0;
+    background-color: #337ab7;
+}
+
+#nav-list > li{
+    border: 1px solid black;
+}
+
+#nav-list > li > a{
+    color: #fff;
+}
+
+#nav-list > li > a:hover{
+    background-color: #03a9f4;
+}
+
+h2{
+    color: #337ab7;
+}
+
+.content{
+    background-color: #337ab7;
+    color: #fff;
+}
