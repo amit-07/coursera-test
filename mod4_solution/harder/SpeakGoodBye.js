@@ -16,6 +16,10 @@
   const byeSpeaker = {
     speak: function (name) {
       console.log(speakWord + " " + name);
+      const greetingArea = document.getElementById("greetings");
+      const subHead = document.createElement("h4");
+      subHead.innerHTML = `${speakWord} ${name}`;
+      greetingArea.appendChild(subHead);
     },
   };
   // STEP 8: Rewrite the 'speak' function such that it is attached to the

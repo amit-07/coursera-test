@@ -12,6 +12,10 @@ let speakWord = "Hello";
 const helloSpeaker = {
   speak: function(name) {
     console.log(speakWord + " " + name);
+    const greetingArea = document.getElementById("greetings");
+    const subHead = document.createElement("h4");
+    subHead.innerHTML = `${speakWord} ${name}`;
+    greetingArea.appendChild(subHead);
   }
 }
 
